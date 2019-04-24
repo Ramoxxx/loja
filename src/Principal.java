@@ -11,13 +11,16 @@ public class Principal
       Scanner scan = new Scanner(System.in);
       
       System.out.print("Nome do carro: ");
-      carro.nome= scan.next();
+      carro.setNome (scan.next());
+      
+      
+      
       System.out.print("Marca do carro: ");
-      carro.marca= scan.next();   
+      carro.setMarca (scan.next());  
       System.out.print("Cor do carro: ");
-      carro.cor= scan.next();      
+      carro.setCor (scan.next());      
       System.out.print("Fabricacao do carro: ");
-      carro.fabricacao= scan.next();      
+      carro.setFabricacao (scan.next());      
       System.out.print("Largura do carro: ");
       carro.largura= scan.next();         
       System.out.print("Peso do carro: ");
